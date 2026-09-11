@@ -59,7 +59,7 @@ function EmailPage() {
               id="context"
               value={context}
               onChange={(e) => setContext(e.target.value)}
-              placeholder="e.g.客户 Sarah at Northwind, following up after Tuesday's demo"
+              placeholder="e.g. Sarah at Northwind, following up after Tuesday's demo"
             />
           </div>
 
