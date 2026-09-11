@@ -94,7 +94,7 @@ export function AppShell({ children }: { children: ReactNode }) {
           <div className="mx-auto w-full max-w-5xl">{children}</div>
         </main>
 
-        <footer className="border-t border-border px-4 py-4 sm:px-6 lg:px-10">
+        <footer className="border-t border-border px-4 py-4 sm:px-6 lg:hidden">
           <div className="mx-auto w-full max-w-5xl">
             <Disclaimer />
           </div>
